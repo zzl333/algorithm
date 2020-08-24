@@ -1,9 +1,9 @@
-package com.zxl.datastructure.tree.trie.com.zxl.others;
+package com.zxl.others;
 
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class Solution1 {
     public List<Integer> mostVisited(int n, int[] rounds) {
     	List<Integer> list = new ArrayList<>();
     	int[] re = new int[n];
@@ -33,6 +33,6 @@ class Solution {
     }
     
     public static void main(String[] args) {
-		System.out.println(new Solution().mostVisited(4, new int[] {1,3,1,2}));
+		System.out.println(new Solution1().mostVisited(4, new int[] {1,3,1,2}));
 	}
 }
