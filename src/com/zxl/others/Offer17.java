@@ -52,6 +52,7 @@ public class Offer17 {
                     sb.append((tem.charAt(i) - '0' + x) % 10);
                 }else{
                     sb.append(tem.substring(0,i+1));
+                    break;
                 }
             }
         }
