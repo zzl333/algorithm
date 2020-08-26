@@ -8,5 +8,6 @@
     法，有“通用解题方法”的美称。
 
 ##回溯算法题目积累
-    1、电话号码的字母组合[leetcode17mediem](./LeetCode17.java)  
+1、电话号码的字母组合[leetcode17medium](LeetCode17.java)
+ 
     

@@ -1,21 +1,21 @@
-package com.zxl.datastructure.tree.trie;
+package com.zxl.datastructure.tree;
 
 import java.util.List;
 
 /**
- * ÊäÈë£ºdict(´Êµä) = ["cat", "bat", "rat"] sentence(¾ä×Ó) = "the cattle was rattled by the battery"
- *Êä³ö£º"the cat was rat by the bat"
- *´Ê¸ùÌæ»»
- *´Ë´¦µÄ×ÖµäÊ÷ÐÎÊ½ÊÇMap<×ÖµäÊ÷, String> String Îª¸Ã×Ö·û´®
- *Èç¹ûsentenceµÄÇ°×ºÆ¥Åäµ½ÁËÇ°×ºÊ÷µÄÒ¶×Ó½Úµã£¬ÄÇÃ´¾ÍÓÃÇ°×ºÊ÷µÄÒ¶×Ó½ÚµãÌæ»»sentenceÖÐµÄ×Ö·û´®
+ * ï¿½ï¿½ï¿½ë£ºdict(ï¿½Êµï¿½) = ["cat", "bat", "rat"] sentence(ï¿½ï¿½ï¿½ï¿½) = "the cattle was rattled by the battery"
+ *ï¿½ï¿½ï¿½ï¿½ï¿½"the cat was rat by the bat"
+ *ï¿½Ê¸ï¿½ï¿½æ»»
+ *ï¿½Ë´ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½Map<ï¿½Öµï¿½ï¿½ï¿½, String> String Îªï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
+ *ï¿½ï¿½ï¿½sentenceï¿½ï¿½Ç°×ºÆ¥ï¿½äµ½ï¿½ï¿½Ç°×ºï¿½ï¿½ï¿½ï¿½Ò¶ï¿½Ó½Úµã£¬ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½Ç°×ºï¿½ï¿½ï¿½ï¿½Ò¶ï¿½Ó½Úµï¿½ï¿½æ»»sentenceï¿½Ðµï¿½ï¿½Ö·ï¿½ï¿½ï¿½
  * @author zxl
  *
  */
 public class WordsPreReplace {
     public String replaceWords(List<String> roots, String sentence) {
-    	//ÊÖ¶¯×ÖµäÊ÷
+    	//ï¿½Ö¶ï¿½ï¿½Öµï¿½ï¿½ï¿½
         TrieNode trie = new TrieNode();
-        //¹¹Ôì×ÖµäÊ÷ wordÎª×Ö·û´®
+        //ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ wordÎªï¿½Ö·ï¿½ï¿½ï¿½
         for (String root: roots) {
             TrieNode cur = trie;
             for (char letter: root.toCharArray()) {
@@ -44,7 +44,7 @@ public class WordsPreReplace {
     }
 }
 
-//ÊÖ¶¯×ÖµäÊ÷
+//ï¿½Ö¶ï¿½ï¿½Öµï¿½ï¿½ï¿½
 class TrieNode {
     TrieNode[] children;
     String word;

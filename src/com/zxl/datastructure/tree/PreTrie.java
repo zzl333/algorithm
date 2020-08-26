@@ -1,4 +1,4 @@
-package com.zxl.datastructure.tree.trie;
+package com.zxl.datastructure.tree;
 
 import java.util.HashMap;
 
