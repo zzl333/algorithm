@@ -5,3 +5,5 @@
 [LeetCode1](./Solution1.java)
 
 [LeetCode459](./Solution1.java)
+
+[LeetCode659](./Solution659.java)
