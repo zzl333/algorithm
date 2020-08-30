@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 给定一个字符串 s，你可以通过在字符串前面添加字符将其转换为回文串。找到并返回可以用这种方式转换的最短回文串。
  */
-class Solution {
+class Solution214 {
     //方法一，思路：反转拼接；超时  O(n^2)
     public String shortestPalindrome(String s) {
         StringBuffer sb = new StringBuffer(s).reverse();
@@ -64,6 +64,6 @@ class Solution {
 
     public static void main(String[] args) {
         System.out.println("aacecaaa");
-        System.out.println(new Solution().shortestPalindrome("abcd"));
+        System.out.println(new Solution214().shortestPalindrome("abcd"));
     }
 }
