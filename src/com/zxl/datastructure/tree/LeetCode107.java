@@ -15,7 +15,7 @@ import java.util.*;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class LeetCode107 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> lists = new ArrayList<>();
         if(root == null) return lists;
