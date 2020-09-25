@@ -5,3 +5,5 @@
     
     
 [回溯法](./backtrack/BACKTRACK.md)
+
+[递归思想](./backtrack/RECURSIVE.md)
