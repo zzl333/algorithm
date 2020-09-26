@@ -9,3 +9,5 @@
 [graph](./Graph/GRAPH.md)
 
 [string](./string/STRING.md)
+
+[array](./array/ARRAY.md)
