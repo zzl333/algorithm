@@ -40,6 +40,5 @@ public class LeetCode113 {
             backTrack(root.right,list,count);
             list.remove(list.size()-1);
         }
-
     }
 }
