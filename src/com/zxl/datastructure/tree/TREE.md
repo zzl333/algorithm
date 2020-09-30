@@ -19,3 +19,5 @@
 [501. 二叉搜索树中的众数](LeetCode501.java)
 
 [Offer28](Offer28.java)
+
+[701. 二叉搜索树中的插入操作](LeetCode701.java)
